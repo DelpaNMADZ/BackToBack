@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+/* Styling Header Container */
+header {
+    min-height: 60px;
+    width: 100%;
+    background-color: #282A35;
+    color: rgb(194, 126, 25);
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(59, 177, 177);
+}
+
+#site-logo {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+#red-dot-span {
+    color: rgb(59, 177, 177);
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(194, 126, 25);
+    font-weight: 700;
+    transition: all 0.3s ease-in 0s;
+}
+
+.nav-links ul li a:hover {
+    padding: 0px 2px;
+    color: rgb(59, 177, 177);
+}
+
+/* Styling Section */
+
+.section-title {
+    margin: 20px auto;
+    width: 20%;
+    padding: 10px 50px;
+    background-color: #282A35;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: 1px solid rgb(194, 126, 25);
+}
+
+.section-title h1{
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.section-title h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+.section-title h5{
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(194, 126, 25);
+}
+
+.section-form{
+    
+}

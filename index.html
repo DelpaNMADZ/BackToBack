@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Survey Form</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="site-logo">
+            <h1>survey<span id="red-dot-span">.com</span></h1>
+        </div>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="section-title">
+            <h1>Fill the form...</h1>
+            <h3>It's so easy.</h3>
+            <h5>Thank you.</h5>
+        </div>
+
+        <div class="section-form">
+            <form action="">
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="Enter your First Name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" placeholder="Enter your Last Name">
+
+                <label for="gender">Gender</label>
+                <input type="radio" value="male">
+                  <label for="male">Male</label>
+                  <input type="radio" value="female">
+                  <label for="female">Female</label>
+
+                <label for="age">Choose your real Age</label>
+                <input type="number">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option disabled selected value>Where you come from </option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="United States">US</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United Kingdom">UK</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Ukraine">Ukraine</option>
+                </select>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
